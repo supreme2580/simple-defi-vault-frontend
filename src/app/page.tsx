@@ -1,5 +1,6 @@
 import DepositComponent from "@/components/deosit-component";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import WithdrawComponent from "@/components/withdraw-component";
 
 export default function Home() {
   return (
@@ -13,7 +14,9 @@ export default function Home() {
           <TabsContent value="deposit">
             <DepositComponent />
           </TabsContent>
-          <TabsContent value="withdraw">Change your password here.</TabsContent>
+          <TabsContent value="withdraw">
+            <WithdrawComponent />
+          </TabsContent>
         </Tabs>
       </div>
     </main>
