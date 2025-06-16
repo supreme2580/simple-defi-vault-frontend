@@ -1,4 +1,4 @@
-import DepositComponent from "@/components/deosit-component";
+import DepositComponent from "@/components/deposit-component";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import WithdrawComponent from "@/components/withdraw-component";
 

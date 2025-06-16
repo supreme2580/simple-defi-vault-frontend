@@ -1,4 +1,4 @@
-import StarknetIcon from "./icons/starknet-icon";
+import EthereumIcon from "./icons/ethereum-icon";
 
 export default function DepositComponent() {
     return(
@@ -7,13 +7,13 @@ export default function DepositComponent() {
                 <div className="w-full h-fit rounded-3xl bg-[#171717] border-2 border-[#1E1E1E] p-6">
                     <div className="flex flex-row items-center justify-between">
                         <h4 className="text-white text-lg">Deposit</h4>
-                        <h4 className="text-white/50 text-lg">Balance: 700000 STRK</h4>
+                        <h4 className="text-white/50 text-lg">Balance: 700000 ETH</h4>
                     </div>
                     <div className="flex flex-row items-center justify-between mt-1.5">
                         <input placeholder="0" className="outline-0 ring-0 placeholder:text-3xl text-3xl pt-1.5 flex-1 text-white" type="number" />
                         <div className="flex flex-row items-center justify-center space-x-1">
-                            <StarknetIcon />
-                            <h4 className="text-2xl text-white">STRK</h4>
+                            <EthereumIcon />
+                            <h4 className="text-2xl text-white">ETH</h4>
                         </div>
                     </div>
                 </div>
@@ -24,8 +24,8 @@ export default function DepositComponent() {
                     <div className="flex flex-row items-center justify-between mt-1.5">
                         <h4 className="text-3xl text-white">-</h4>
                         <div className="flex flex-row items-center justify-center space-x-1">
-                            <StarknetIcon />
-                            <h4 className="text-2xl text-white">xSTRK</h4>
+                            <EthereumIcon />
+                            <h4 className="text-2xl text-white">xETH</h4>
                         </div>
                     </div>
                 </div>
@@ -42,11 +42,11 @@ export default function DepositComponent() {
                             </div>
                             <div className="flex flex-row items-center justify-between">
                                 <h4 className="text-white/50 text-lg">Total Amount</h4>
-                                <h4 className="text-white text-lg">12,495 STRK</h4>
+                                <h4 className="text-white text-lg">12,495 ETH</h4>
                             </div>
                             <div className="flex flex-row items-center justify-between">
                                 <h4 className="text-white/50 text-lg">Total Locked</h4>
-                                <h4 className="text-white text-lg">104,564,959.45 STRK</h4>
+                                <h4 className="text-white text-lg">104,564,959.45 ETH</h4>
                             </div>
                         </div>
                         <button className="w-full py-3 bg-[#503EE5] text-white border-0 rounded-xl hover:cursor-pointer">
